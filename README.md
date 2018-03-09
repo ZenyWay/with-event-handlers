@@ -16,7 +16,7 @@ see the full [example](./example/index.tsx) in this directory.
 run the example in your browser locally with `npm run example`
 or [online here](https://cdn.rawgit.com/ZenyWay/with-event-handlers/v1.0.0/example/index.html).
 
-this example is refactored from that of [`component-from-stream''](https://npmjs.com/package/component-from-stream/):
+this example is refactored from that of [`component-from-stream`](https://npmjs.com/package/component-from-stream/):
 it demonstrates how to implement `component-from-stream` Components
 using `with-event-handlers` to work with an actions stream instead of props:
 
