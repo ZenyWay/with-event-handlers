@@ -4,12 +4,17 @@
 essentially a redux core within a [`component-from-stream`](https://npmjs.com/package/component-from-stream/),
 in less than 3k bytes, non-minified, uncompressed.
 
-create a custom props dispatcher from a dispatcher and action creators,
+create a custom props dispatcher from a given dispatcher and action creators,
 that adds corresponding event handlers to the props it receives
 before dispatching them.
 the reactive operator in the `component-from-stream` instantiated
-with this custom dispatcher receives an action stream,
+with this custom dispatcher receives an action stream (instead of a props stream),
 which it reduces to a stream of view props.
+
+for components with more involved behaviours,
+the reducer logic may favourably be implemented with a
+[`basic-state-machine`](https://npmjs.com/package/basic-state-machine/)
+to maintain self-documenting expressive code.
 
 # Example
 see the full [example](./example/index.tsx) in this directory.

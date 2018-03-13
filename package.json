@@ -1,6 +1,6 @@
 {
   "name": "with-event-handlers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "essentially a redux core within a `component-from-stream`",
   "main": "dist/index.min.js",
   "typings": "dist/index.d.ts",
